@@ -1,0 +1,129 @@
+<div class="container">
+  <div class="row">
+    <div class="col-md-12 border border-warning rounded my-2 shadow">
+      <form [formGroup]="formGroup">
+        <div class="my-3">
+          <div class="accordion-title bg-light ">
+            <h6 class="fw-bold py-3">{{testNmbr}}.1 Add test details</h6>
+          </div>
+          <label for="testTitle">Test Title*</label>
+          <input type="text" class="form-control" id="testTitle" formControlName="testTitle">
+          <div *ngIf="isFieldInvalid('testTitle')" class="required-error text-danger">Test title is required</div>
+        </div>
+        <div class="mb-3">
+          <label for="testDescription">Test description*</label>
+          <input type="text" class="form-control" id="testDescription" formControlName="testDescription">
+          <div *ngIf="isFieldInvalid('testDescription')" class="required-error text-danger">Test description is required
+          </div>
+        </div>
+        <div class="mb-3">
+          <label for="addMedia">Add media*</label>
+          <div class="d-flex">
+            <select name="addMedia" id="mediaSelectedValue" class="me-2" formControlName="mediaSelectedValue">
+              <option value="" [disabled]="true">Media type</option>
+              <option *ngFor="let option of selectMediaValues" [value]="option.displayText">
+                {{option.displayText}}</option>
+            </select>
+            <div *ngIf="isFieldInvalid('mediaSelectedValue')" class="required-error text-danger">Media type is required
+            </div>
+
+            <select name="media" id="medialinkedValue" class="me-2" formControlName="medialinkedValue">
+              <option value="" [disabled]="true">Choose media</option>
+              <option *ngFor="let option of selectlinkedMediaValues" [value]="option.displayText">
+                {{option.displayText}}</option>
+            </select>
+            <div *ngIf="isFieldInvalid('medialinkedValue')" class="required-error text-danger">Choose media is required
+            </div>
+            <input class="custom-input-mm" type="text" mask="99:99" placeholder="MM:SS" formControlName="mediaTime">
+            <div *ngIf="isFieldInvalid('mediaTime')" class="required-error text-danger">Media time is
+              required
+            </div>
+          </div>
+        </div>
+        <div class="mb-3">
+          <label for="addMedia">Instruction time*</label>
+          <div>
+            <input class="custom-input-mm" type="text" mask="00:00" placeholder="MM:SS"
+              formControlName="instructionTime">
+            <div *ngIf="isFieldInvalid('instructionTime')" class="required-error text-danger">Instruction time is
+              required
+            </div>
+          </div>
+        </div>
+        <div class="mb-3">
+          <label for="mediaIntroduction">Media
+            introduction</label>
+          <textarea class="form-control" id="instructions" rows="2" formControlName="mediaIntroduction"></textarea>
+        </div>
+        <div class="mb-3">
+          <label for="input6">Add cover image</label>
+          <div class="file-upload-container">
+            <input type="file" class="form-control" id="coverImage" (change)="onFileMediaChange($event)"
+              formControlName="coverImageForMedia">
+          </div>
+        </div>
+        <div class="accordion-title bg-light">
+          <h6 class="fw-bold py-3">{{testNmbr}}.2 Add questions</h6>
+        </div>
+        <div class="my-2">
+          <table class="table table-bordered">
+            <thead>
+              <tr class="table-secondary">
+                <th>Sl no.</th>
+                <th>Question</th>
+                <th>Type</th>
+                <th>Difficulty</th>
+                <th>Time</th>
+                <th>Score</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr *ngIf="!tableData">No questions added
+              </tr>
+              <tr *ngFor="let item of displayQuestion; let i = index">
+                <td>{{i+1}}</td>
+                <td>{{item['question' ]}}</td>
+                <td>{{item['questionType']}}</td>
+                <td>{{item['difficulty']}}</td>
+                <td>{{item['timeLimit']}}</td>
+                <td>{{item['score']}}</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <div class="d-flex justify-content-end mb-3">
+          <button type="button" class="btn btn" data-bs-toggle="modal" data-bs-target="#myModal"
+            [disabled]="!formGroup.valid"><i class="bi bi-plus-circle-fill me-2"></i>Add</button>
+        </div>
+        <div class="accordion-title bg-light">
+          <h6 class="fw-bold py-3">{{testNmbr}}.3 Test Configuration</h6>
+        </div>
+        <div class="my-2">
+          <table class="table table-bordered">
+            <thead>
+              <tr class="table-secondary">
+                <th>No. of questions</th>
+                <th>Total score</th>
+                <th>Total questions time</th>
+                <th>Media time</th>
+                <th>Instruction Time</th>
+                <th>Total time</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>{{noOfquestions}}</td>
+                <td>{{totalscore}}</td>
+                <td>{{totalTimeFormatted}}</td>
+                <td #scoreTd>{{mediaTimechild?.value|mmsspipe}}</td>
+                <td #InstructionTime>{{instructionTimechild?.value|mmsspipe}}</td>
+                <td>{{totalTimeFormatted | durationSum:mediaTimechild?.value:instructionTimechild?.value}}
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </form>
+    </div>
+  </div>
+</div>

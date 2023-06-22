@@ -1,0 +1,819 @@
+{
+    "landingContent": [
+        {
+            "code": null,
+            "title": "chan activity88",
+            "instruction": "chan activity88",
+            "mode": 19,
+            "difficultyText": "Easy",
+            "modeText": "Practice",
+            "activityTypeText": "Speaking",
+            "difficultyColor": null,
+            "modeColor": null,
+            "activityTypeColor": null,
+            "updatedBy": "Updated on 07/06/2023 by admin",
+            "isPublished": false,
+            "lastModificationTime": "2023-06-07T08:56:26.79353",
+            "publishedTime": null,
+            "id": 26
+        },
+        {
+            "code": null,
+            "title": "new activity for test",
+            "instruction": "string",
+            "mode": 19,
+            "difficultyText": "Easy",
+            "modeText": "Practice",
+            "activityTypeText": "Speaking",
+            "difficultyColor": null,
+            "modeColor": null,
+            "activityTypeColor": null,
+            "updatedBy": "Updated on 05/06/2023 by admin",
+            "isPublished": false,
+            "lastModificationTime": "2023-06-05T14:33:21.4956661",
+            "publishedTime": null,
+            "id": 30
+        },
+        {
+            "code": null,
+            "title": "chan activity8",
+            "instruction": "chan activity8",
+            "mode": 19,
+            "difficultyText": "Easy",
+            "modeText": "Practice",
+            "activityTypeText": "Speaking",
+            "difficultyColor": null,
+            "modeColor": null,
+            "activityTypeColor": null,
+            "updatedBy": "Updated on 30/05/2023 by admin",
+            "isPublished": false,
+            "lastModificationTime": "2023-05-30T09:32:24.5837731",
+            "publishedTime": null,
+            "id": 25
+        },
+        {
+            "code": null,
+            "title": "chan activity7",
+            "instruction": "chan activity7",
+            "mode": 19,
+            "difficultyText": "Easy",
+            "modeText": "Practice",
+            "activityTypeText": "Speaking",
+            "difficultyColor": null,
+            "modeColor": null,
+            "activityTypeColor": null,
+            "updatedBy": "Updated on 30/05/2023 by admin",
+            "isPublished": false,
+            "lastModificationTime": "2023-05-30T09:30:55.7191187",
+            "publishedTime": null,
+            "id": 24
+        },
+        {
+            "code": null,
+            "title": "chan activity6",
+            "instruction": "chan activity6",
+            "mode": 19,
+            "difficultyText": "Easy",
+            "modeText": "Practice",
+            "activityTypeText": "Speaking",
+            "difficultyColor": null,
+            "modeColor": null,
+            "activityTypeColor": null,
+            "updatedBy": "Updated on 29/05/2023 by admin",
+            "isPublished": false,
+            "lastModificationTime": "2023-05-29T15:34:21.417533",
+            "publishedTime": null,
+            "id": 23
+        },
+        {
+            "code": null,
+            "title": "chan activity5",
+            "instruction": "chan activity5",
+            "mode": 19,
+            "difficultyText": "Easy",
+            "modeText": "Practice",
+            "activityTypeText": "Speaking",
+            "difficultyColor": null,
+            "modeColor": null,
+            "activityTypeColor": null,
+            "updatedBy": "Updated on 29/05/2023 by admin",
+            "isPublished": false,
+            "lastModificationTime": "2023-05-29T15:22:53.4002681",
+            "publishedTime": null,
+            "id": 22
+        },
+        {
+            "code": null,
+            "title": "chan activity4",
+            "instruction": "chan activity4",
+            "mode": 20,
+            "difficultyText": "Easy",
+            "modeText": "Exam",
+            "activityTypeText": "Listening",
+            "difficultyColor": null,
+            "modeColor": null,
+            "activityTypeColor": null,
+            "updatedBy": "Updated on 29/05/2023 by admin",
+            "isPublished": false,
+            "lastModificationTime": "2023-05-29T15:12:37.521787",
+            "publishedTime": null,
+            "id": 21
+        },
+        {
+            "code": null,
+            "title": "chan activity3",
+            "instruction": "chan activity3",
+            "mode": 21,
+            "difficultyText": "Hard",
+            "modeText": "Both",
+            "activityTypeText": "Interview",
+            "difficultyColor": null,
+            "modeColor": null,
+            "activityTypeColor": null,
+            "updatedBy": "Updated on 29/05/2023 by admin",
+            "isPublished": false,
+            "lastModificationTime": "2023-05-29T15:11:57.7351036",
+            "publishedTime": null,
+            "id": 20
+        },
+        {
+            "code": null,
+            "title": "chan activity2",
+            "instruction": "chan activity2 inst",
+            "mode": 21,
+            "difficultyText": "Easy",
+            "modeText": "Both",
+            "activityTypeText": "Listening",
+            "difficultyColor": null,
+            "modeColor": null,
+            "activityTypeColor": null,
+            "updatedBy": "Updated on 29/05/2023 by admin",
+            "isPublished": false,
+            "lastModificationTime": "2023-05-29T15:05:31.4827334",
+            "publishedTime": null,
+            "id": 19
+        },
+        {
+            "code": null,
+            "title": "chan activity1",
+            "instruction": "chan activity ins",
+            "mode": 19,
+            "difficultyText": "Medium",
+            "modeText": "Practice",
+            "activityTypeText": "Interview",
+            "difficultyColor": null,
+            "modeColor": null,
+            "activityTypeColor": null,
+            "updatedBy": "Updated on 29/05/2023 by admin",
+            "isPublished": false,
+            "lastModificationTime": "2023-05-29T15:04:22.0460875",
+            "publishedTime": null,
+            "id": 18
+        },
+        {
+            "code": null,
+            "title": "chan activityfdghfdh",
+            "instruction": "chan activity inss",
+            "mode": 19,
+            "difficultyText": "Medium",
+            "modeText": "Practice",
+            "activityTypeText": "Listening",
+            "difficultyColor": null,
+            "modeColor": null,
+            "activityTypeColor": null,
+            "updatedBy": "Updated on 29/05/2023 by admin",
+            "isPublished": false,
+            "lastModificationTime": "2023-05-29T14:53:42.3370087",
+            "publishedTime": null,
+            "id": 17
+        },
+        {
+            "code": null,
+            "title": "chan activity",
+            "instruction": "chan activity ins",
+            "mode": 19,
+            "difficultyText": "Easy",
+            "modeText": "Practice",
+            "activityTypeText": "Speaking",
+            "difficultyColor": null,
+            "modeColor": null,
+            "activityTypeColor": null,
+            "updatedBy": "Updated on 29/05/2023 by admin",
+            "isPublished": false,
+            "lastModificationTime": "2023-05-29T14:24:21.5846894",
+            "publishedTime": null,
+            "id": 16
+        }
+    ],
+    "activityModes": [
+        {
+            "id": 19,
+            "displayText": "Practice",
+            "shortCode": "PRACTICE",
+            "seqNo": 1
+        },
+        {
+            "id": 20,
+            "displayText": "Exam",
+            "shortCode": "EXAM",
+            "seqNo": 2
+        },
+        {
+            "id": 21,
+            "displayText": "Both",
+            "shortCode": "BOTH",
+            "seqNo": 3
+        }
+    ],
+    "activityTypes": [
+        {
+            "id": 30,
+            "displayText": "Speaking",
+            "shortCode": "SPEAKING",
+            "seqNo": 1
+        },
+        {
+            "id": 31,
+            "displayText": "Listening",
+            "shortCode": "LISTENING",
+            "seqNo": 2
+        },
+        {
+            "id": 32,
+            "displayText": "Interview",
+            "shortCode": "INTERVIEW",
+            "seqNo": 3
+        }
+    ],
+    "difficultyLevels": [
+        {
+            "id": 6,
+            "displayText": "Easy",
+            "shortCode": "EASY",
+            "seqNo": 1
+        },
+        {
+            "id": 7,
+            "displayText": "Medium",
+            "shortCode": "MEDIUM",
+            "seqNo": 2
+        },
+        {
+            "id": 8,
+            "displayText": "Hard",
+            "shortCode": "HARD",
+            "seqNo": 3
+        }
+    ],
+    "mediaTypes": [
+        {
+            "id": 18,
+            "displayText": "Text",
+            "shortCode": "TEXT",
+            "seqNo": 1
+        },
+        {
+            "id": 15,
+            "displayText": "Image",
+            "shortCode": "IMAGE",
+            "seqNo": 2
+        },
+        {
+            "id": 16,
+            "displayText": "Audio",
+            "shortCode": "AUDIO",
+            "seqNo": 3
+        },
+        {
+            "id": 17,
+            "displayText": "Video",
+            "shortCode": "VIDEO",
+            "seqNo": 4
+        }
+    ],
+    "questionTypes": [
+        {
+            "id": 9,
+            "displayText": "MCQ",
+            "shortCode": "MCQ",
+            "seqNo": 1
+        },
+        {
+            "id": 10,
+            "displayText": "True/False",
+            "shortCode": "TRUEFALSE",
+            "seqNo": 2
+        },
+        {
+            "id": 11,
+            "displayText": "Fill In the Blank",
+            "shortCode": "FILL",
+            "seqNo": 3
+        },
+        {
+            "id": 12,
+            "displayText": "Match the following",
+            "shortCode": "MATCHING",
+            "seqNo": 4
+        },
+        {
+            "id": 13,
+            "displayText": "Re-ordering",
+            "shortCode": "REORDER",
+            "seqNo": 5
+        },
+        {
+            "id": 14,
+            "displayText": "Comprehension",
+            "shortCode": "COMPREHENSION",
+            "seqNo": 6
+        }
+    ],
+    "rubrics": [
+        {
+            "id": 50,
+            "name": "aaa"
+        },
+        {
+            "id": 51,
+            "name": "aaa"
+        },
+        {
+            "id": 68,
+            "name": "ads"
+        },
+        {
+            "id": 37,
+            "name": "ADSD"
+        },
+        {
+            "id": 61,
+            "name": "asaaaa"
+        },
+        {
+            "id": 47,
+            "name": "ascasc"
+        },
+        {
+            "id": 69,
+            "name": "asd"
+        },
+        {
+            "id": 67,
+            "name": "asdasd"
+        },
+        {
+            "id": 53,
+            "name": "asdasd"
+        },
+        {
+            "id": 44,
+            "name": "deletionrubriclvl"
+        },
+        {
+            "id": 45,
+            "name": "namenew"
+        },
+        {
+            "id": 48,
+            "name": "namenew"
+        },
+        {
+            "id": 49,
+            "name": "namenew"
+        },
+        {
+            "id": 52,
+            "name": "newData"
+        },
+        {
+            "id": 54,
+            "name": "rubric "
+        },
+        {
+            "id": 56,
+            "name": "rubric 2"
+        },
+        {
+            "id": 62,
+            "name": "rubric 3"
+        },
+        {
+            "id": 1,
+            "name": "Rubric Name"
+        },
+        {
+            "id": 7,
+            "name": "Rubric Name"
+        },
+        {
+            "id": 11,
+            "name": "Rubric Name"
+        },
+        {
+            "id": 15,
+            "name": "Rubric Name"
+        },
+        {
+            "id": 16,
+            "name": "Rubric Name 2"
+        },
+        {
+            "id": 12,
+            "name": "Rubric Name 2"
+        },
+        {
+            "id": 8,
+            "name": "Rubric Name 2"
+        },
+        {
+            "id": 2,
+            "name": "Rubric Name 2"
+        },
+        {
+            "id": 5,
+            "name": "Rubric Name 3"
+        },
+        {
+            "id": 9,
+            "name": "Rubric Name 3"
+        },
+        {
+            "id": 13,
+            "name": "Rubric Name 3"
+        },
+        {
+            "id": 17,
+            "name": "Rubric Name 3"
+        },
+        {
+            "id": 19,
+            "name": "Rubric Name 3"
+        },
+        {
+            "id": 18,
+            "name": "Rubric Name 4"
+        },
+        {
+            "id": 14,
+            "name": "Rubric Name 4"
+        },
+        {
+            "id": 10,
+            "name": "Rubric Name 4"
+        },
+        {
+            "id": 6,
+            "name": "Rubric Name 4"
+        },
+        {
+            "id": 65,
+            "name": "Rubric Name Test"
+        },
+        {
+            "id": 46,
+            "name": "rubric name test 1 data"
+        },
+        {
+            "id": 43,
+            "name": "rubric3"
+        },
+        {
+            "id": 41,
+            "name": "rubricnametest"
+        },
+        {
+            "id": 42,
+            "name": "rubrictest"
+        },
+        {
+            "id": 39,
+            "name": "sas"
+        },
+        {
+            "id": 40,
+            "name": "sasas"
+        },
+        {
+            "id": 38,
+            "name": "sasas"
+        },
+        {
+            "id": 36,
+            "name": "sasas"
+        },
+        {
+            "id": 66,
+            "name": "ss"
+        },
+        {
+            "id": 60,
+            "name": "test rubric"
+        },
+        {
+            "id": 24,
+            "name": "www"
+        },
+        {
+            "id": 29,
+            "name": "www"
+        },
+        {
+            "id": 32,
+            "name": "www"
+        },
+        {
+            "id": 33,
+            "name": "www"
+        }
+    ],
+    "linkedMedias": [
+        {
+            "id": 13,
+            "displayText": "chan text media",
+            "shortCode": null,
+            "seqNo": null
+        },
+        {
+            "id": 27,
+            "displayText": "dsfgds",
+            "shortCode": null,
+            "seqNo": null
+        },
+        {
+            "id": 28,
+            "displayText": "dsfgds",
+            "shortCode": null,
+            "seqNo": null
+        },
+        {
+            "id": 29,
+            "displayText": "fdghdfh",
+            "shortCode": null,
+            "seqNo": null
+        },
+        {
+            "id": 34,
+            "displayText": "chan image media",
+            "shortCode": null,
+            "seqNo": null
+        },
+        {
+            "id": 35,
+            "displayText": "a",
+            "shortCode": null,
+            "seqNo": null
+        },
+        {
+            "id": 38,
+            "displayText": "Video File",
+            "shortCode": null,
+            "seqNo": null
+        },
+        {
+            "id": 41,
+            "displayText": "mp3 sample",
+            "shortCode": null,
+            "seqNo": null
+        },
+        {
+            "id": 42,
+            "displayText": "audio file",
+            "shortCode": null,
+            "seqNo": null
+        },
+        {
+            "id": 46,
+            "displayText": "d456456sdgsdfg",
+            "shortCode": null,
+            "seqNo": null
+        },
+        {
+            "id": 1080,
+            "displayText": "Test Title",
+            "shortCode": null,
+            "seqNo": null
+        },
+        {
+            "id": 1084,
+            "displayText": "test",
+            "shortCode": null,
+            "seqNo": null
+        },
+        {
+            "id": 1085,
+            "displayText": "text image preview",
+            "shortCode": null,
+            "seqNo": null
+        },
+        {
+            "id": 1086,
+            "displayText": "Niro Txt",
+            "shortCode": null,
+            "seqNo": null
+        },
+        {
+            "id": 1087,
+            "displayText": "Niro Img",
+            "shortCode": null,
+            "seqNo": null
+        },
+        {
+            "id": 1088,
+            "displayText": "Niro Audio",
+            "shortCode": null,
+            "seqNo": null
+        },
+        {
+            "id": 1089,
+            "displayText": "Niro Video",
+            "shortCode": null,
+            "seqNo": null
+        },
+        {
+            "id": 1094,
+            "displayText": "123",
+            "shortCode": null,
+            "seqNo": null
+        },
+        {
+            "id": 1097,
+            "displayText": "test image preview for question bank",
+            "shortCode": null,
+            "seqNo": null
+        },
+        {
+            "id": 1098,
+            "displayText": "test question bank audio for question bank",
+            "shortCode": null,
+            "seqNo": null
+        }
+    ],
+    "questions": [
+        {
+            "questionId": 1654,
+            "code": "QTM001",
+            "question": "Question related to ATC",
+            "questionPlainText": "1oMK4vZRZ@Ox9sgyl)(I4K5EQ2GrsK$b@DBXyWuLmkxXFff8p19%BzLeVKrs@F$y1Gg7)79TDI8z4Rg03",
+            "timeLimit": "10:00",
+            "difficulty": "Easy",
+            "questionType": "MCQ",
+            "linkedMediaCount": 1,
+            "score": 100
+        },
+        {
+            "questionId": 1646,
+            "code": "QTM002",
+            "question": "<p>Test 2</p>",
+            "questionPlainText": "Test 2\\n",
+            "timeLimit": "10:00",
+            "difficulty": "Easy",
+            "questionType": "MCQ",
+            "linkedMediaCount": 1,
+            "score": 100
+        },
+        {
+            "questionId": 1645,
+            "code": "QTM001",
+            "question": "<p>Test 2</p>",
+            "questionPlainText": "Test 2\\n",
+            "timeLimit": "10:00",
+            "difficulty": "Easy",
+            "questionType": "MCQ",
+            "linkedMediaCount": 1,
+            "score": 100
+        },
+        {
+            "questionId": 1629,
+            "code": "QTM002",
+            "question": "<p>Test 2</p>",
+            "questionPlainText": "Test 2\\n",
+            "timeLimit": "06:00",
+            "difficulty": "Easy",
+            "questionType": "MCQ",
+            "linkedMediaCount": 1,
+            "score": 100
+        },
+        {
+            "questionId": 1628,
+            "code": "QTM001",
+            "question": "<p>Test 2</p>",
+            "questionPlainText": "Test 2\\n",
+            "timeLimit": "04:00",
+            "difficulty": "Easy",
+            "questionType": "MCQ",
+            "linkedMediaCount": 1,
+            "score": 100
+        },
+        {
+            "questionId": 1617,
+            "code": "QTM002",
+            "question": "<p>Test 2</p>",
+            "questionPlainText": "Test 2\\n",
+            "timeLimit": "05:00",
+            "difficulty": "Easy",
+            "questionType": "MCQ",
+            "linkedMediaCount": 1,
+            "score": 100
+        },
+        {
+            "questionId": 1616,
+            "code": "QTM001",
+            "question": "<p>Test 2</p>",
+            "questionPlainText": "Test 2\\n",
+            "timeLimit": "15:00",
+            "difficulty": "Easy",
+            "questionType": "MCQ",
+            "linkedMediaCount": 1,
+            "score": 100
+        },
+        {
+            "questionId": 1605,
+            "code": "QTM002",
+            "question": "<p>Test 2</p>",
+            "questionPlainText": "Test 2\\n",
+            "timeLimit": "02:00",
+            "difficulty": "Easy",
+            "questionType": "MCQ",
+            "linkedMediaCount": 1,
+            "score": 100
+        },
+        {
+            "questionId": 1604,
+            "code": "QTM001",
+            "question": "<p>Test 2</p>",
+            "questionPlainText": "Test 2\\n",
+            "timeLimit": "01:00",
+            "difficulty": "Easy",
+            "questionType": "MCQ",
+            "linkedMediaCount": 1,
+            "score": 100
+        },
+        {
+            "questionId": 1582,
+            "code": "QTM002",
+            "question": "<p>Test 2</p>",
+            "questionPlainText": "Test 2\\n",
+            "timeLimit": "06:00",
+            "difficulty": "Easy",
+            "questionType": "MCQ",
+            "linkedMediaCount": 1,
+            "score": 100
+        },
+        {
+            "questionId": 1581,
+            "code": "QTM001",
+            "question": "<p>Test 2</p>",
+            "questionPlainText": "Test 2\\n",
+            "timeLimit": "03:30",
+            "difficulty": "Easy",
+            "questionType": "MCQ",
+            "linkedMediaCount": 1,
+            "score": 100
+        },
+        {
+            "questionId": 1571,
+            "code": "QTM002",
+            "question": "<p>Test 2</p>",
+            "questionPlainText": "Test 2\\n",
+            "timeLimit": "11:00",
+            "difficulty": "Easy",
+            "questionType": "MCQ",
+            "linkedMediaCount": 1,
+            "score": 100
+        },
+        {
+            "questionId": 1570,
+            "code": "QTM001",
+            "question": "<p>Test 2</p>",
+            "questionPlainText": "Test 2\\n",
+            "timeLimit": "02:00",
+            "difficulty": "Easy",
+            "questionType": "MCQ",
+            "linkedMediaCount": 1,
+            "score": 100
+        },
+        {
+            "questionId": 1561,
+            "code": "QTM002",
+            "question": "<p>Test 2</p>",
+            "questionPlainText": "Test 2\\n",
+            "timeLimit": "05:00",
+            "difficulty": "Easy",
+            "questionType": "MCQ",
+            "linkedMediaCount": 1,
+            "score": 100
+        },
+        {
+            "questionId": 1560,
+            "code": "QTM001",
+            "question": "<p>Test 2</p>",
+            "questionPlainText": "Test 2\\n",
+            "timeLimit": "03:00",
+            "difficulty": "Easy",
+            "questionType": "MCQ",
+            "linkedMediaCount": 1,
+            "score": 100
+        }
+    ]
+}

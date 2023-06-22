@@ -1,0 +1,50 @@
+.accordion-title {
+  position: relative;
+  padding: 10px 0px;
+  background-color: #888888fb;
+}
+
+.custom-input-file {
+  height: 100px;
+}
+
+.custom-input-mm {
+  width: 57px;
+}
+
+.file-upload-container {
+  display: flex;
+  align-items: center;
+}
+
+.file-input {
+  display: none;
+}
+
+.file-label {
+  padding: 8px;
+  border: 1px dashed #bbb;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.file-label-text {
+  color: #888;
+}
+
+.mainPart {
+  height: 600px;
+}
+
+.headingofTask {
+  width: 50px;
+  height: 30px;
+  padding: 5px;
+  font-size: 15px;
+  background-color: black;
+  color: white;
+}
+
+.modal-dialog {
+  max-width: 800px;
+}

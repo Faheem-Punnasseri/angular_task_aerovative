@@ -1,0 +1,77 @@
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-md-12 py-2">
+            <h5 class="fw-bold">Activities</h5>
+        </div>
+    </div>
+    <div class="row bg-light p-0">
+        <div class="col-md-12">
+            <div class="d-flex mt-2">
+                <div class="me-auto">
+                    <select class="me-2" (change)="filterData($event, 'difficultyText')" [(ngModel)]="selectLevelType">
+                        <option value="" [disabled]="true">Difficulty</option>
+                        <option *ngFor="let item of getUniqueValues('difficultyText')" [value]="item">
+                            {{ item }}
+                        </option>
+                    </select>
+                    <select class="me-2" (change)="filterData($event, 'activityTypeText')"
+                        [(ngModel)]="selectActvityType">
+                        <option value="" [disabled]="true">Activity type</option>
+                        <option *ngFor="let item of getUniqueValues('activityTypeText')" [value]="item">
+                            {{ item}}
+                        </option>
+                    </select>
+                    <select class="me-2" (change)="filterData($event, 'modeText')" [(ngModel)]="selectModeType">
+                        <option value="" [disabled]="true">Mode</option>
+                        <option *ngFor="let item of getUniqueValues('modeText')" [value]="item">
+                            {{ item }}
+                        </option>
+                    </select>
+                </div>
+                <div class="ms-auto">
+                    <span [@searchAnimation]="searchState">
+                        <input type="text" [(ngModel)]="searchQuery" placeholder="Search by title"
+                            (keyup)="performSearch()">
+                    </span>
+                    <button class="btn btn-sm border border-2 border-dark mx-2" (click)="toggleSearch()"><i
+                            class="bi bi-search"></i></button>
+                    <button class="btn btn btn-sm border border-2 border-dark mx-2" (click)="resetFilter()"><i
+                            class="bi bi-filter ">&#x21BA;</i></button>
+                    <button class="btn btn-warning btn-sm mx-2" routerLink="/activity/addActivity"><i
+                            class="bi bi-plus-circle-fill pe-2"></i>Add
+                        Actvity</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-12 mt-3">
+            <div *ngIf="searchQuery">
+                <h4 class="text-center">Showing results for "{{searchQuery}}"</h4>
+                <div [hidden]="showNoResult">
+                    <h3 class="text-danger">No result found</h3>
+                </div>
+            </div>
+
+            <div class="card mb-2" *ngFor="let item of filteredData ">
+                <div class="card-body">
+                    <div class="row">
+                        <div class="col-md-2">
+                            <img src="../../../../../assets/images/default.png" class="image">
+                        </div>
+                        <div class="col-md-10">
+                            <div class="mb-2">
+                                <span class="me-2 border border-1 p-1 rounded text-light"
+                                    [ngStyle]="getBackgroundStyle(item)">{{item.difficultyText}}</span>
+                                <span class="border border-1 p-1 rounded bg-light me-2">{{item.activityTypeText}}</span>
+                                <span class="border border-1 p-1 rounded bg-light me-2">{{item.modeText}}</span>
+                            </div>
+                            <h4 class="card-title fw-bold">{{item.title}}</h4>
+                            <h5 class="card-title">{{item.instruction}}</h5>
+                            <p class="card-text">{{item.updatedBy}}</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

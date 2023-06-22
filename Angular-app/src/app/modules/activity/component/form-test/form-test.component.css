@@ -1,0 +1,16 @@
+/* .required-error{
+    border: 1px solid red;
+} */
+
+.modal-dialog {
+    max-width: 800px;
+}
+
+.custom-input-mm {
+    width: 57px;
+}
+
+.modal-content {
+    z-index: 1050 !important;
+  }
+
