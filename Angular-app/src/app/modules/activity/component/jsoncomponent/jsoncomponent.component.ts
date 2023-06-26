@@ -13,6 +13,5 @@ export class JsoncomponentComponent {
 
   constructor(@Inject(MAT_DIALOG_DATA) public data: any) {
     this.jsonData = this.data.jsonData;
-    // this.prettyPrintedJson = prettyjson.render(this.jsonData);
   }
 }

@@ -6,17 +6,21 @@ import { Pipe, PipeTransform } from '@angular/core';
 
 export class DurationSumPipe implements PipeTransform {
 
-  transform(duration1: string, duration2: string, duration3: string): string {      
-      const sumInMilliseconds = this.parseDuration(duration1) + this.parseDuration(duration2) + this.parseDuration(duration3);
+  transform(duration1: string, duration2: string, duration3: string): string {
+    const sumInMilliseconds = this.parseDuration(duration1) + this.parseDuration(duration2) + this.parseDuration(duration3);
+    if (isNaN(sumInMilliseconds)) {
+      return '0:00'; // Return '0:00' if the sum is NaN
+    } else {
       const sumFormatted = this.formatDuration(sumInMilliseconds);
-      return sumFormatted;    
+      return sumFormatted;
+    }
   }
 
   private parseDuration(duration: string): number {
     let minutes = 0;
     let seconds = 0;
 
-    if (duration === null) {
+    if (duration === null || duration === undefined) {
       return 0;
     }
 

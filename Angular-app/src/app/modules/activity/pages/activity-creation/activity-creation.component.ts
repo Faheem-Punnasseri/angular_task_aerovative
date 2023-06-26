@@ -44,7 +44,7 @@ export class ActivityCreationComponent implements OnInit {
   activityArraytopush: any;
   questionTotalScore: any;
   totalQuestionsofAll: any;
-  testdetaisArray: any;
+  testdetaisArray: any = [];
   matTabselectedIndexValue: number = 0;
   presentArray: any;
   questioneachTotaleachquest: number[] = [];
@@ -63,6 +63,7 @@ export class ActivityCreationComponent implements OnInit {
 
   ngAfterViewInit() {
     this.initializeSelectedItems();
+    this.testdetaisArray = [];
   }
 
   filetoLoad() {
@@ -82,7 +83,7 @@ export class ActivityCreationComponent implements OnInit {
       activity: this.activityArraytopush,
       test: this.testdetaisArray
     }
-    const jsonString = JSON.stringify(this.overAllObj);
+    const jsonString = JSON.stringify(this.overAllObj, null, 2);
     this.displayJson = jsonString;
   }
 
@@ -107,7 +108,7 @@ export class ActivityCreationComponent implements OnInit {
     });
   }
 
-  addTab() {    
+  addTab() {
     const newForm = this.createForm();
     this.forms.push(newForm);
     setTimeout(() => {
@@ -115,17 +116,18 @@ export class ActivityCreationComponent implements OnInit {
     }, 50);
   }
 
-  submitSecondary(){
-    const jsonData = this.displayJson;
-    const dialogRef = this.dialog.open(JsoncomponentComponent, {
-      data: { jsonData },
-      width: '850px',
-      height: '700px',
-    });
-
-    dialogRef.afterClosed().subscribe(() => {
-      this.router.navigate(['/activity/landingpage']);
-    });
+  submitSecondary() {
+    setTimeout(() => {
+      let jsonData = this.displayJson;
+      const dialogRef = this.dialog.open(JsoncomponentComponent, {
+        data: { jsonData },
+        width: '850px',
+        height: '700px',
+      });
+      dialogRef.afterClosed().subscribe(() => {
+        this.router.navigate(['/activity/landingpage']);
+      });
+    }, 1);
   }
 
   handleButtonClick() {
@@ -136,7 +138,6 @@ export class ActivityCreationComponent implements OnInit {
     this.forToggleTabId = this.tabSelectedId;
     const actvivtyArray = this.activityForm.value;
     this.activityArraytopush = actvivtyArray;
-    this.testLength = this.forms.length;
     this.todisplayActvityReview();
     return `Test ${index + 2}`
   }
@@ -193,7 +194,7 @@ export class ActivityCreationComponent implements OnInit {
     typeOfActivity: new FormControl('Listening'),
     activityTitle: new FormControl('', [Validators.required, Validators.maxLength(200)]),
     instructions: new FormControl('', [Validators.required, Validators.maxLength(999)]),
-    fileofActivity: new FormControl(''),
+    fileofActivity: new FormControl(null),
     remarks: new FormControl('', [Validators.required])
   });
 
@@ -215,20 +216,15 @@ export class ActivityCreationComponent implements OnInit {
   }
 
   onFileChange(event: any) {
-    const file = event.target.files[0];
-    this.activityForm.patchValue({
-      fileofActivity: file
-    });
-    this.activityForm.get('coverImageForMedia')?.updateValueAndValidity();
+    const files = event.target.files;
+    if (files && files.length > 0) {
+      const selectedFile = files[0];
+      this.activityForm.get('fileofActivity')?.setValue(selectedFile.name);
+    }
   }
 
   resetEventValue(event: any) {
     event.target.checked = false;
-  }
-
-  onFileMediaChange(event: any) {
-    const file = event.target.files[0];
-    this.activityForm.get('coverImageForMedia');
   }
 
   selectAll(event: any) {
@@ -283,6 +279,7 @@ export class ActivityCreationComponent implements OnInit {
   }
 
   modalstepthree() {
+    this.testLength = this.forms.length;
     this.totalQuestionsofAll = this.getTotalLength();
     this.questionTotalScore = this.getTotalScore();
     this.questioneachTotaleachquest = this.geteachTotalquestionsLength();
@@ -440,8 +437,8 @@ export class ActivityCreationComponent implements OnInit {
     this.createObjoverAll();
 
     if (this.activityForm.valid) {
-    } 
-    
+    }
+
   }
 
 }
